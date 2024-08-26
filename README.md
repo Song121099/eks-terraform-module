@@ -2,7 +2,7 @@
 ## eks 생성을 위한 terraform code
 
 ### Module
-GitOps_vpc
+GitOps_vpc <br/>
 GitOps_eks 
 
 ### Version
@@ -15,8 +15,8 @@ EKS module 19.21.0  <br/>
 t3.medium
 
 ### Cluster Addon
-coredns
-kube-proxy
+coredns <br/>
+kube-proxy <br/>
 vpc-cn
 
 ### Command
