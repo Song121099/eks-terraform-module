@@ -1,31 +1,32 @@
 # eks-terraform-module
-### code
-eks 생성을 위한 terraform code
+## eks 생성을 위한 terraform code
 
-### folder
-main.tf -> main code
-
-### module
+### Module
 GitOps_vpc
 GitOps_eks 
 
-### version
+### Version
 AWS provider >= 5.26.0
 kubernetes >= 2.24.0
 eks Cluster 1.28
 EKS module 19.21.0
 
-### spec
+### Spec
 t3.medium
 
-### cluster addon
+### Cluster Addon
 coredns
 kube-proxy
 vpc-cn
 
-### command
+### Command
+main.tf
 ```
 terraform init
 terraform plan
 terraform apply
 ```
+
+### Reference
+https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest
+https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest
