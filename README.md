@@ -6,10 +6,10 @@ GitOps_vpc
 GitOps_eks 
 
 ### Version
-AWS provider >= 5.26.0
-kubernetes >= 2.24.0
-eks Cluster 1.28
-EKS module 19.21.0
+AWS provider >= 5.26.0 <br/>
+kubernetes >= 2.24.0  <br/>
+eks Cluster 1.28  <br/>
+EKS module 19.21.0  <br/>
 
 ### Spec
 t3.medium
